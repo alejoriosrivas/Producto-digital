@@ -1,0 +1,92 @@
+:root {
+    --brown-vtg: #705E3F;
+    --brown-vtg2: #B19565;
+    --brown-vtg3: #F5E7CE;
+    --brown-vtg4: #F5EEE3;
+
+    --title-sz: 15px !important;
+    --boton-sz: 18px !important;
+    --little-sz: 15px;
+    --text-sz: 23px !important;
+
+    --test-family: 'Bad Script', cursive;
+    --link-family: 'Courgette', cursive;
+}
+.navMenuContainer {
+    display: flex;
+    justify-content: center;
+}
+.notificacionContainer {
+    width: 100%;
+    height: 92vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mensaje {
+    width: 450px;
+}
+.mensajeContainer figure {
+    top: 284px;
+    left: 560px;
+    position: fixed;
+}
+.mensajeContainer figure img {
+    width: 350px;
+}
+.msgTitle {
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.164);
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 5px;
+    font-size: var(--title-sz);
+    font-family: var(--test-family);
+    color: var(--brown-vtg4);
+    background-color: var(--brown-vtg);
+}
+.msgTitle h2 {
+    padding: 15px 0 10px;
+}
+.msg {
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.164);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 86%;
+    height: 180px;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    font-size: var(--text-sz);
+    color: var(--brown-vtg);
+    background-color: var(--brown-vtg4);
+}
+.msg .mensajeExito {
+    margin: 8px auto;
+    width: 80%;
+}
+.boton {
+    display: inline-flex;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.164);
+    background-color: var(--brown-vtg);
+}
+.boton a {
+    padding: 15px 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: var(--boton-sz);
+    font-family: var(--link-family);
+    color: var(--brown-vtg4);
+}
+.condicionesContainer {
+    font-size: var(--little-sz);
+}
+.condicionesContainer a {
+    text-decoration: none;
+    color: var(--brown-vtg);
+}
+.condicionesContainer a:hover {
+    text-decoration: underline;
+}

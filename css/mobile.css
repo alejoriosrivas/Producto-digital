@@ -1,0 +1,169 @@
+@media (max-width: 800px) {
+    /* ------------------------------ Formulario */
+    .containerOfContainers {
+        flex-wrap: wrap;
+    }
+    .wrapAling {
+        display: flex;
+        justify-content: center;
+    }
+    .leftContainerForm figure {
+        display: none;
+    }
+    .rightContainerForm {
+        width: 100%;
+        box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.171);
+    }
+    .rightContainerTitle {
+        border-radius: 0;
+        box-shadow: none;
+        background-color: var(--brown-vtg4);
+    }
+    .rightContainerTitle h2 {
+        color: var(--brown-vtg);
+    }
+    .formContainer {
+        width: 100%;
+        box-shadow: none;
+    }
+    /* ------------------------------ Fin formulario */
+}
+@media (max-width: 600px) {
+    
+    :root {
+        --brown-vtg: #705E3F;
+        --brown-vtg4: #F5EEE3;
+    
+        --responsive-title-sz: 40px;
+        --responsive-subtitle-sz: 25px;
+        --responsive-phrase-sz: 25px;
+        --transparente: rgba(0, 0, 0, 0);
+    }
+    /* ------------------------------ Sec1 */
+    .mainSection {
+        padding: 0;
+        display: inherit;
+    }
+    .mainSecTitle {
+        background-color: var(--brown-vtg4);
+        line-height: 55px;
+        position: inherit;
+        border-radius: unset;
+    }
+    .mainSecTitle h1 {
+        color: var(--brown-vtg);
+        font-size: var(--responsive-title-sz);
+        margin: 0;
+        padding: 40px 30px;
+    }
+    .contentContainer {
+        width: 100%;
+        height: auto;
+        padding: 0 0 50px 0;
+    }
+    #sec1 {
+        justify-content: center;
+        height: 100vh;
+    }
+    .imgContainer {
+        width: 100%;
+    }
+    .catFigure {
+        padding: 0;
+        margin: auto;
+    }
+    .container {
+        display: none;
+    }
+    /* ------------------------------ Fin sec1 */
+    /* ------------------------------ Productos */
+    .products {
+        display: inherit;
+        height: auto;
+    }
+    .product {
+        margin-top: auto;
+        margin: 40px 0;
+    }
+    /* ------------------------------ Fin productos */
+    /* ------------------------------ More info */
+    .moreInfoTitle {
+        padding: 40px 0;
+        background-image: none;
+        background-color: var(--brown-vtg);
+    }
+    .moreInfoTitle h2 {
+        color: var(--brown-vtg4);
+        letter-spacing: 1px;
+        margin-top: 0;
+    }
+    .moreInfo {
+        display: inherit;
+    }
+    .moreInfo div div p {
+        font-size: 25px;
+    }
+    /* ------------------------------ Fin more info */
+    /* ------------------------------ Menciones */
+    .mentionContainer {
+        margin-top: 0;
+    }
+    .mentionContainer h2 {
+        font-size: 40px;
+    }
+    .mentions {
+        margin: 0;
+    }
+    .mention {
+        width: auto;
+    }
+    .mention:hover {
+        width: auto;
+        height: auto;
+    }
+    /* ------------------------------ Fin menciones */
+    /* ------------------------------ Footer */
+    .mailContainer {
+        font-size: var(--responsive-subtitle-sz);
+    }
+    /* ------------------------------ Fin footer */
+
+    /* ------------------------------ Pág. Productos */
+    .producto {
+        flex-wrap: wrap;
+    }
+    .producto p {
+        width: 95%;
+    }
+    /* ------------------------------ Fin productos */
+    /* ------------------------------ Formulario */
+    .formContainer {
+        margin-top: 30px;
+    }
+    .form_grid {
+        display: contents;
+    }
+    .form_grid label h4 {
+        margin-top: 22px;
+    }
+    .mainContainer {
+        background-color: var(--brown-vtg4);
+    }
+    .leftContainerForm p {
+        font-size: var(--responsive-phrase-sz);
+    }
+    .rightContainerForm {
+        box-shadow: none;
+    }
+    .rightContainerTitle {
+        background-color: var(--brown-vtg);
+    }
+    .rightContainerTitle h2 {
+        color: var(--brown-vtg4);
+    }
+    /* ------------------------------ Fin formulario */
+
+    .liMenuCfg {
+        display: none;
+    }
+}
