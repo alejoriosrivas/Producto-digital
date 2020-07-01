@@ -256,7 +256,7 @@ figure {
     justify-content: center;
     margin-top: 45px;
     height: 150px;
-    background-image: url('../img/curva.png');
+    background-image: url('..img/curva.png');
     background-size: cover;
 }
 .moreInfoTitle h2 {
